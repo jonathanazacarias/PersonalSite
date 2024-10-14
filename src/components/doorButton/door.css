@@ -1,0 +1,8 @@
+.door {
+    height: 35rem;
+    width: auto;
+}
+
+.doorframe {
+    display: inline-block;
+}
