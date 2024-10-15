@@ -1,40 +1,29 @@
 import { useState } from "react";
 import "./door.css";
+import { Link } from "react-router-dom";
 
 function DoorButton(props) {
-  const pullDoor = props.pullDoor;
+  const link = props.link;
+  const openDoorSrc = props.openDoorSrc;
+  const closedDoorSrc = props.closedDoorSrc;
 
   const [isHovered, setIsHovered] = useState(false);
 
-  if (pullDoor) {
-    return (
+  return (
+    <Link to={link}>
       <div
         className="doorframe"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         {isHovered ? (
-          <img className="door" src="src\components\doorButton\pulled-door.svg" />
+          <img className="door" src={openDoorSrc} />
         ) : (
-          <img className="door" src="src\components\doorButton\door.svg" />
+          <img className="door" src={closedDoorSrc} />
         )}
       </div>
-    );
-  } else {
-    return (
-      <div
-        className="doorframe"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
-        {isHovered ? (
-          <img className="door" src="src\components\doorButton\pushed-door.svg" />
-        ) : (
-          <img className="door" src="src\components\doorButton\door.svg" />
-        )}
-      </div>
-    );
-  }
+    </Link>
+  );
 }
 
 export default DoorButton;

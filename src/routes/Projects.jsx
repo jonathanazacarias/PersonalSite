@@ -1,13 +1,13 @@
 import NavBar from "../components/navBar/NavBar"
 
-function About() {
+function Projects() {
 
     return (
         <div>
             <NavBar/>
-            <h1>About Page</h1>
+            <h1>Projects Page</h1>
         </div>
     )
 }
 
-export default About
+export default Projects
