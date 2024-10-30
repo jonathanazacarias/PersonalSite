@@ -1,4 +1,3 @@
-import { useState } from "react";
 import NavBar from "./components/navBar/NavBar";
 import Hero from "./components/Hero";
 import ContactForm from "./components/contactForm/ContactForm";
