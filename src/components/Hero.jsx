@@ -26,10 +26,6 @@ export default function Hero() {
           openDoorSrc="src/components/doorButton/doorImages/pulled-door.svg"
         ></DoorButton>
       </div>
-      <hr />
-      <div>
-        <p className="fs-2">Contact Me</p>
-      </div>
     </Container>
   );
 }
