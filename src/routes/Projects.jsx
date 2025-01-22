@@ -1,13 +1,17 @@
-import NavBar from "../components/navBar/NavBar"
+import Footer from "../components/footer/Footer";
+import NavBar from "../components/navBar/NavBar";
+import { Container } from "react-bootstrap";
 
 function Projects() {
-
-    return (
-        <div>
-            <NavBar/>
-            <h1>Projects Page</h1>
-        </div>
-    )
+  return (
+    <div>
+      <NavBar />
+      <Container>
+        <h1>Projects</h1>
+      </Container>
+      <Footer />
+    </div>
+  );
 }
 
-export default Projects
+export default Projects;
