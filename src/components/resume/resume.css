@@ -1,0 +1,33 @@
+#header {
+    display: flex;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#titleSectionChild {
+    align-self: flex-start;
+}
+
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerCard {
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    border-style: none;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardImg {
+    width: 10rem;
+}
