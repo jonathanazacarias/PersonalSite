@@ -9,6 +9,9 @@ import Resume from "../src/routes/Resume.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ErrorPage from "./error-page.jsx";
 
+// data not being pulled from backend, so loading all site content from data file
+import siteData from "./siteData.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +28,7 @@ const router = createBrowserRouter([
   },
   {
     path: "resume",
+    // resume element expecting 'summary' and 'resumeBody' props
     element: <Resume />,
   },
 ]);
