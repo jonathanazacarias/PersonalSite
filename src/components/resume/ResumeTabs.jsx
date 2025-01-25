@@ -13,7 +13,7 @@ function ResumeTabs(props) {
         })}
       </Tab>
       <Tab eventKey="education" title="Education & Training">
-        Tab content for Profile
+        {}
       </Tab>
       <Tab eventKey="skills" title="Skills">
         Tab content for Contact

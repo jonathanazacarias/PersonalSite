@@ -1,18 +1,22 @@
 import { Container } from "react-bootstrap";
 import "./resume.css";
-import ResumeHeaderCard from "./ResumeHeaderCard";
+import HeaderCard from "../HeaderCard";
 
 function ResumeHeader(props) {
   const summary = props.summary;
+  const cardData = props.headerCard;
   return (
     <div id="header">
-      <ResumeHeaderCard />
+      <HeaderCard
+        profilePicture={cardData.profilePic}
+        title={cardData.title}
+        downloadLink={cardData.resumeDownloadlink}
+        downloadBtnText={cardData.downloadBtnText}
+      />
       <Container className="titleSection">
         <h1>Resume</h1>
         <h3 id="titleSectionChild">Summary</h3>
-        <p>
-          {summary}
-        </p>
+        <p>{summary}</p>
       </Container>
     </div>
   );
