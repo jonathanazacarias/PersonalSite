@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Hero></Hero>
+      <Hero/>
       <Container>
         <hr />
         <p className="fs-2">Contact Me</p>

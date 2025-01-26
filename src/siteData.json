@@ -1,0 +1,39 @@
+{
+  "resumeData": {
+    "summary": "A passionate, dependable, and disciplined individual with full stack software engineering knowledge, and operations management experience. Has a Bachelor's degree in Computer Science, practical leadership experience, and a lifelong learner and growth mindset.",
+    "headerCard": {"profilePic": "", "title": "", "downloadLink": "", "downloadBtnText": ""},
+    "resumeBody": {
+      "experience": [
+        {
+          "company": "Ally Waste",
+          "date": "Jan 2019 - June 2023",
+          "roleList": [
+            {
+              "roleTitle": "District Manager and Tech Developer",
+              "location": "Seattle, WA.",
+              "date": "June 2021 - June 2023",
+              "expPointList": [
+                "Managed 15 west coast accounts, ~35 direct reports. Increased associate retention by 22% and reduced operational spending in the district by ~ 33%.",
+                "App ideation and testing (user requirements analysis and user experience for “Ally” app), website building and SEO (www.allywaste.com), and Salesforce Admin - Increased client retention by 4% over 1 year.",
+                "Took over 3 challenged accounts in other markets resulting in contract renewals for all. Equipment maintenance and repair resulting in $21,000 cost saved over 1 year."
+              ]
+            },
+            {
+              "roleTitle": "Technologies Intern",
+              "location": "Phoenix, AZ.",
+              "date": "June 2021 - August 2021",
+              "expPointList": [
+                "Identified useful data streams across company operations to then develop proprietary business tools for providing data driven insights to executive, sales, and operations teams.",
+                "Worked with a third party developer to integrate data, developed knowledge, and techniques into proprietary company apps."
+              ]
+            }
+          ]
+        }
+      ],
+      "education": [],
+      "skills": [],
+      "honors": [],
+      "other": []
+    }
+  }
+}

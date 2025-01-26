@@ -2,14 +2,15 @@ import ResumeTabs from "./ResumeTabs";
 
 function ResumeBody(props) {
   const resumeBody = props.resumeBody;
+
   return (
     <div>
       <ResumeTabs
         experienceList={resumeBody.experience}
-        educationList={resumeBody.experienceList}
-        skillsList={resumeBody.skillsList}
-        honorsList={resumeBody.honorsList}
-        otherList={resumeBody.otherList}
+        educationList={resumeBody.education}
+        skillsList={resumeBody.skills}
+        honorsList={resumeBody.honors}
+        otherList={resumeBody.other}
       />
     </div>
   );

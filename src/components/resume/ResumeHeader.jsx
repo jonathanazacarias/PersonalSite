@@ -10,7 +10,7 @@ function ResumeHeader(props) {
       <HeaderCard
         profilePicture={cardData.profilePic}
         title={cardData.title}
-        downloadLink={cardData.resumeDownloadlink}
+        downloadLink={cardData.downloadlink}
         downloadBtnText={cardData.downloadBtnText}
       />
       <Container className="titleSection">

@@ -2,19 +2,25 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import { Link } from "react-router-dom";
 import ResumeExperience from "./ResumeExperience";
+import { v4 as uuidv4 } from "uuid";
 
 function ResumeTabs(props) {
-    const [experienceList, educationList, skillsList, honorsList, otherList] = props;
+  const { experienceList, educationList, skillsList, honorsList, otherList } =
+    props;
+
   return (
     <Tabs defaultActiveKey="experience" id="resume-tabs" className="mb-3">
       <Tab eventKey="experience" title="Experience">
-        {experienceList.foreach(experience => {
-            <ResumeExperience company={experience.company} date={experience.date} roleList={experience.roleList}/>
-        })}
+        {experienceList.map((experience) => (
+            <ResumeExperience
+              key={uuidv4()}
+              company={experience.company}
+              date={experience.date}
+              roleList={experience.roleList}
+            />
+        ))}
       </Tab>
-      <Tab eventKey="education" title="Education & Training">
-        {}
-      </Tab>
+      <Tab eventKey="education" title="Education & Training"></Tab>
       <Tab eventKey="skills" title="Skills">
         Tab content for Contact
       </Tab>

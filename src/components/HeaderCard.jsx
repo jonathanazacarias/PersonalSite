@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 
 function HeaderCard(props) {
-  const [profilePicture, title, downloadLink, downloadBtnText] = props;
+  const {profilePicture, title, downloadLink, downloadBtnText} = props;
   return (
     <Card className='headerCard' style={{border: 'none'}}>
       <Image src={profilePicture} roundedCircle fluid className='cardImg'/>
