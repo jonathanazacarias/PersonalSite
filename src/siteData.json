@@ -40,7 +40,7 @@
           "roleList": [
             {
               "roleTitle": "UoR IT and Online Services Developer",
-              "location": "Redlands, CA",
+              "location": "Redlands, CA.",
               "date": "Aug 2021 - June 2022",
               "expPointList": [
                 "Collaborated with DevOps head to resolve bugs and develop “Redlands API” features. Studied code base/ architecture, performed test cases, and did code reviews to create maintainable code and meet coding standards. Built web forms for budget requests from university departments."
@@ -72,8 +72,29 @@
           ]
         }
       ],
-      "education": [],
-      "skills": [],
+      "education": [
+        {
+          "institution": "University of Redlands",
+          "location": "Redlands, CA.",
+          "date": "2018 - 2022",
+          "summary": "Bachelor's Degree in Computer Science. Strong course load in mathematics. President of university programming club, member of Google DSC, participated in ICPC 2020 and 2021."
+        },
+        {
+          "institution": "Charles Wright Academy",
+          "location": "University Place, WA.",
+          "date": "2014 - 2018",
+          "summary": "Yazi Scholarship recipient for all years of attendance at CWA for the equivalent of As and Bs in coursework, educator recommendations reinforcing high levels of engagement in the classroom environment, and independent academic pursuits engaged in outside of the classroom."
+        },
+        {
+          "institution": "2024 Web Development Bootcamp",
+          "location": "Online",
+          "date": "Summer 2024",
+          "summary": "Completed a course on current web development technologies and standards."
+        }
+      ],
+      "skills": [
+        
+      ],
       "honors": [],
       "other": []
     }
