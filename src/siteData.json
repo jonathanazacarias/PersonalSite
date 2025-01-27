@@ -93,10 +93,73 @@
         }
       ],
       "skills": [
-        
+        {
+          "skill": "Programming Languages",
+          "skillExampleList": [
+            "JavaScript (JSX, EJS, TS)", "Java", "Python", "C++", "HTML", "CSS"
+          ]
+        },
+        {
+          "skill": "Development Tools",
+          "skillExampleList": [
+            "VS", "VS Code", "Git (version control)", "GitKraken", "Dev Ops"
+          ]
+        },
+        {
+          "skill": "Frameworks/ Libraries",
+          "skillExampleList": [
+            "React", "React Router Dom", "Express", "Node", "Passport", "Axios", "Knockout"
+          ]
+        },
+        {
+          "skill": "Databases",
+          "skillExampleList": [
+            "PostgreSQL", "PGAdmin 4", "MongoDB"
+          ]
+        },
+        {
+          "skill": "Software Engineering/ Architecture",
+          "skillExampleList": [
+            "REST/ RESTful APIs", "GraphQL", "wireframes", "Agile model", "Code Review", "System architecture", "Stakeholder collaboration", "Unit testing/ test cases"
+          ]
+        },
+        {
+          "skill": "Teamwork/ leadership",
+          "skillExampleList": [
+            "Communication", "Accountability", "Empowering/ encouraging others"
+          ]
+        }
       ],
-      "honors": [],
-      "other": []
+      "honors": [
+        "Ally Waste Services September 2022 district manager of the month",
+        "2022 president's Achievement Award",
+        "First generation student “Juggler” award: (time manage many tasks and activities)"
+      ],
+      "other": [
+        {
+          "title": "Certifications",
+          "list": [
+            "2024 Web Development Bootcamp",
+            "W3Schools JavaScript",
+            "2022 Salesforce Administrator",
+            "CompTIA Network+ in progress"
+          ]
+        },
+        {
+          "title": "Languages",
+          "list": [
+            "Spanish", "Learning ASL"
+          ]
+        },
+        {
+          "title": "Hobbies",
+          "list": [
+            "Grandmaster at Risk Global Domination",
+            "Vehicle mechanics/ flipping",
+            "website building"
+          ]
+        }
+      ]
     }
   }
 }
