@@ -12,7 +12,7 @@ function ExperienceRole(props) {
       </div>
 
       <ul className="expPointList">
-        {expPointList.map((point) => (
+        {expPointList?.map((point) => (
             <li key={uuidv4()} className="expPoint">{point}</li>
         ))}
       </ul>

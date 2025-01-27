@@ -11,13 +11,15 @@ function ResumeTabs(props) {
   return (
     <Tabs defaultActiveKey="experience" id="resume-tabs" className="mb-3">
       <Tab eventKey="experience" title="Experience">
-        {experienceList.map((experience) => (
+        {experienceList?.map((experience) => (
+          <div key={uuidv4()}>
             <ResumeExperience
-              key={uuidv4()}
               company={experience.company}
               date={experience.date}
               roleList={experience.roleList}
             />
+            <hr/>
+          </div>
         ))}
       </Tab>
       <Tab eventKey="education" title="Education & Training"></Tab>

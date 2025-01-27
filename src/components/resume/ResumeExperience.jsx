@@ -10,7 +10,7 @@ function ResumeExperience(props) {
         <h4 className="expCompany">{company}</h4>
         <p className="expDate">{date}</p>
       </div>
-      {roleList.map((role) => (
+      {roleList?.map((role) => (
         <ExperienceRole
           key={uuidv4()}
           roleTitle={role.roleTitle}

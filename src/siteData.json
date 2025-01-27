@@ -1,7 +1,12 @@
 {
   "resumeData": {
     "summary": "A passionate, dependable, and disciplined individual with full stack software engineering knowledge, and operations management experience. Has a Bachelor's degree in Computer Science, practical leadership experience, and a lifelong learner and growth mindset.",
-    "headerCard": {"profilePic": "", "title": "", "downloadLink": "", "downloadBtnText": ""},
+    "headerCard": {
+      "profilePic": "src/assets/images/headshot-square.jpeg",
+      "title": "Software Developer",
+      "downloadLink": "",
+      "downloadBtnText": "Download Resume"
+    },
     "resumeBody": {
       "experience": [
         {
@@ -25,6 +30,43 @@
               "expPointList": [
                 "Identified useful data streams across company operations to then develop proprietary business tools for providing data driven insights to executive, sales, and operations teams.",
                 "Worked with a third party developer to integrate data, developed knowledge, and techniques into proprietary company apps."
+              ]
+            }
+          ]
+        },
+        {
+          "company": "University of Redlands IT Services",
+          "date": "Jan 2019 - June 2022",
+          "roleList": [
+            {
+              "roleTitle": "UoR IT and Online Services Developer",
+              "location": "Redlands, CA",
+              "date": "Aug 2021 - June 2022",
+              "expPointList": [
+                "Collaborated with DevOps head to resolve bugs and develop “Redlands API” features. Studied code base/ architecture, performed test cases, and did code reviews to create maintainable code and meet coding standards. Built web forms for budget requests from university departments."
+              ]
+            },
+            {
+              "roleTitle": "",
+              "location": "",
+              "date": "Jan 2019 - June 2021",
+              "expPointList": [
+                "Planned and developed a new student portal with a focus on the student employment website, currently in use by the university for all student employees (Sharepoint, Knockout.js).",
+                "Worked at the help desk with technical questions (networking issues, hardware repairs, software setup)."
+              ]
+            }
+          ]
+        },
+        {
+          "company": "Readiness and Acceleration Innovation Network (RAIN)",
+          "date": "Summer 2017, 2018",
+          "roleList": [
+            {
+              "roleTitle": "Project Team Lead",
+              "location": "Tacoma, WA.",
+              "date": "",
+              "expPointList": [
+                "Organized and coded for RAIN's 2017 and 2018 International Genetically Engineered Machine (IGEM) competition teams resulting in a bronze medal for the team in both years."
               ]
             }
           ]
