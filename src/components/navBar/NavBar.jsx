@@ -10,7 +10,7 @@ export default function NavBar() {
 
     return (
         <Navbar expand="lg" className="bg-body-tertiary px-4">
-            <Navbar.Brand as={Link} to='./'>Jonathan Zacarias</Navbar.Brand>
+            <Navbar.Brand as={Link} to='/'>Jonathan Zacarias</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
                 <Nav className="me-2">
