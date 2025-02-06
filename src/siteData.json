@@ -96,37 +96,59 @@
         {
           "skill": "Programming Languages",
           "skillExampleList": [
-            "JavaScript (JSX, EJS, TS)", "Java", "Python", "C++", "HTML", "CSS"
+            "JavaScript (JSX, EJS, TS)",
+            "Java",
+            "Python",
+            "C++",
+            "HTML",
+            "CSS"
           ]
         },
         {
           "skill": "Development Tools",
           "skillExampleList": [
-            "VS", "VS Code", "Git (version control)", "GitKraken", "Dev Ops"
+            "VS",
+            "VS Code",
+            "Git (version control)",
+            "GitKraken",
+            "Dev Ops"
           ]
         },
         {
           "skill": "Frameworks/ Libraries",
           "skillExampleList": [
-            "React", "React Router Dom", "Express", "Node", "Passport", "Axios", "Knockout"
+            "React",
+            "React Router Dom",
+            "Express",
+            "Node",
+            "Passport",
+            "Axios",
+            "Knockout"
           ]
         },
         {
           "skill": "Databases",
-          "skillExampleList": [
-            "PostgreSQL", "PGAdmin 4", "MongoDB"
-          ]
+          "skillExampleList": ["PostgreSQL", "PGAdmin 4", "MongoDB"]
         },
         {
           "skill": "Software Engineering/ Architecture",
           "skillExampleList": [
-            "REST/ RESTful APIs", "GraphQL", "wireframes", "Agile model", "Code Review", "System architecture", "Stakeholder collaboration", "Unit testing/ test cases"
+            "REST/ RESTful APIs",
+            "GraphQL",
+            "wireframes",
+            "Agile model",
+            "Code Review",
+            "System architecture",
+            "Stakeholder collaboration",
+            "Unit testing/ test cases"
           ]
         },
         {
           "skill": "Teamwork/ leadership",
           "skillExampleList": [
-            "Communication", "Accountability", "Empowering/ encouraging others"
+            "Communication",
+            "Accountability",
+            "Empowering/ encouraging others"
           ]
         }
       ],
@@ -147,9 +169,7 @@
         },
         {
           "title": "Languages",
-          "list": [
-            "Spanish", "Learning ASL"
-          ]
+          "list": ["Spanish", "Learning ASL"]
         },
         {
           "title": "Hobbies",
@@ -160,6 +180,28 @@
           ]
         }
       ]
+    }
+  },
+  "aboutData": {
+    "basics": {
+      "intro": "Hi, I’m Jonathan! I live in Seattle, WA, and am currently a dog handler (love ‘em) while I explore putting some of my other talents to work. I like to think of myself as a jack of all trades, with a particular interest in anything “tech”. I am a problem solver, a“tinkerer”, and a people person; which is why I love to code, tear apart engines, and play the game of Risk. I have had a wide array of jobs over the years, but my degree is in Computer Science, and I would love to put my software development skills to work! Lately I have been putting that together with some of my IT knowledge to bring you this react site. It is being hosted on my very own home server, if you want to learn more about how to do that or get a game server running (for dummies, learned from doing it myself) go check out that project here!",
+      "galleryTitle": "Favorite Photos",
+      "galleryPhotoList": ["src/assets/images/galleryPhotos/beach.JPG", "src/assets/images/galleryPhotos/blakeSailboat.JPG", "src/assets/images/galleryPhotos/dock.JPG"],
+      "bookInfluenceTitle": "Books that have influenced me:",
+      "bookInfluenceList": ["Tribe: On Homecoming and Belonging (Sebastian Junger)", "Sapiens: A Brief History of Humankind (Yuval Harari)", "The Bible (god)", "Exploring Metaphysics (David Johnson)", "Why Evolution is True (Jerry Coyne)", "The Deficit Myth (Stephanie Kelton)", "Behave (Robert Sapolsky)", "Animal Farm (George Orwell)", "The Parable of the Sower (Octavia Butler)", "All About Love (Bell Hooks)"],
+      "bookLoveTitle": "Books/ Media I love:",
+      "bookLoveList": ["Dune (all books, Frank Herbert, Brian Herbert, Kevin Andersen)", "Dune Part 1 & Part 2", "Westworld (TV Show)", "Altered Carbon (TV Show)", "The Complete Sailing Manual (Steve Sleight)", "Plants of the Pacific Northwest Coast", "Seashore Life of the Northern Pacific Coast", "Philosophy of Sailing: Offshore in Search of the Universe (Christian Williams)"]
+    },
+    "deep": {
+      "personalStatement": "",
+      "joyListTitle": "Things that give me the most joy and fulfilment in my life:",
+      "joyList": ["providing/ organizing an experience/ surprise for my partner, friends, and people close to me", "Learning about a new subject", "Building / creating something new, physical, musical, digital.", "Teaching someone about something I am passionate about"],
+      "goalListTitle": "Goals both general and specific, immediate and long term, personal, life, and professional (in no particular order):",
+      "goalList": ["Become Grandmaster (or high skill) at as many board games as possible", "Build a business providing a product or service while maintaining integrity to my personal mission, and goals", "Help others achieve success", "Own a piece of land to build on", "Continue to learn, Always", "Share my own skills and abilities, help others increase self efficacy"],
+      "qualitiesListTitle": "Qualities/ skills I admire the most about myself:",
+      "qualitiesList": ["Patience", "Self efficacy/ Competence", "Creative problem solving", "Communication skills (written, verbal, visual)"],
+      "improvmentListTitle": "Qualities/ skills I want to improve the most:",
+      "improvmentList": ["Timely and effective confrontation.", "Sticking to a routine", "Finishing tasks 100%, then revising and improving", "Communication skills (written, verbal, visual), other languages"]
     }
   }
 }

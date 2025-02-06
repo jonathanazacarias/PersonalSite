@@ -18,6 +18,9 @@ const summary = resumeData.summary;
 const headerCard = resumeData.headerCard;
 const resumeBody = resumeData.resumeBody;
 
+// about page data
+const aboutPageData = siteData.aboutData;
+
 
 
 const router = createBrowserRouter([
@@ -27,7 +30,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "about",
-        element: <About />,
+        element: <About data={aboutPageData}/>,
         errorElement: <ErrorPage />,
       },
       {

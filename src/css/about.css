@@ -1,0 +1,12 @@
+p {
+    text-indent: 25px;
+}
+.aboutPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deepDiveSection {
+    padding-top: 5rem;
+}
