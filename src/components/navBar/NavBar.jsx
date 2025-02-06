@@ -3,14 +3,12 @@ import { Link } from "react-router-dom";
 import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Container } from "react-bootstrap";
-
 
 export default function NavBar() {
 
     return (
         <Navbar expand="lg" className="bg-body-tertiary px-4">
-            <Navbar.Brand as={Link} to='../'>Jonathan Zacarias</Navbar.Brand>
+            <Navbar.Brand as={Link} to='/'>Jonathan Zacarias</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
                 <Nav className="me-2">

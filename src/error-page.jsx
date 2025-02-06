@@ -8,13 +8,15 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
-      <NavBar/>
       <Container>
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred. Please contact the site administrator for assistance.</p>
-      <p>
-        <i>{error.statusText || error.message}</i>
-      </p>
+        <h1>Oops!</h1>
+        <p>
+          Sorry, an unexpected error has occurred. Please contact the site
+          administrator for assistance.
+        </p>
+        <p>
+          <i>{error.statusText || error.message}</i>
+        </p>
       </Container>
     </div>
   );

@@ -1,0 +1,11 @@
+.gallery {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.galleryImage {
+    height: 35rem;
+}
+
+.carousel {
+    width: 50rem;
+}

@@ -1,19 +1,15 @@
 import NavBar from "./components/navBar/NavBar";
-import Hero from "./components/Hero";
-import ContactForm from "./components/contactForm/ContactForm";
 import Footer from "./components/footer/Footer";
 import { Container } from "react-bootstrap";
+import { useOutlet } from "react-router-dom";
+import Home from "./routes/Home";
 
 function App() {
+  const outlet = useOutlet();
   return (
     <>
       <NavBar />
-      <Hero/>
-      <Container>
-        <hr />
-        <p className="fs-2">Contact Me</p>
-      </Container>
-      <ContactForm />
+      <>{outlet || <Home />}</>
       <Footer />
     </>
   );
