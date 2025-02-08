@@ -6,6 +6,7 @@ const siteAPIBaseURL = "http://localhost:3000";
 
 const resume = siteData.resumeData;
 const projects = siteData.projectData.projects;
+const about = siteData.aboutData;
 
 // // ex for getting from db
 // export async function projectLoader({params}) {
@@ -21,6 +22,17 @@ const projects = siteData.projectData.projects;
 //     }
 // }
 
+export async function aboutLoader() {
+  try {
+    const data = await about;
+
+    return data;
+
+  } catch (error) {
+    return redirect("/");
+  }
+}
+
 export async function resumeLoader() {
   try {
     const data = await resume;
@@ -28,7 +40,7 @@ export async function resumeLoader() {
     return data;
 
   } catch (error) {
-    return redirect("/projects");
+    return redirect("/");
   }
 }
 

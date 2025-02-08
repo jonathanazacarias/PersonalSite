@@ -1,16 +1,17 @@
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import PictureGallery from "../components/about/PictureGallery";
 import "../css/about.css";
 import { v4 as uuidv4 } from "uuid";
 import HiddenTextAccordion from "../components/about/HiddenTextAccordion";
 
-function About(props) {
-  const data = props.data;
-  const basics = data.basics;
-  const deep = data.deep;
+function About() {
+  const about = useLoaderData();
+
+  const basics = about.basics;
+  const deep = about.deep;
 
   const introSummary = basics.intro;
   const galleryTitle = basics.galleryTitle;

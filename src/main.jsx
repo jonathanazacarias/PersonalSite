@@ -12,10 +12,8 @@ import ErrorPage from "./error-page.jsx";
 
 // data is not being pulled from a backend for now, so loading all site content from data file
 import * as siteData from "./siteData.json";
-import { projectLoader, projectsLoader, resumeLoader } from "./loaders.js";
+import { projectLoader, projectsLoader, resumeLoader, aboutLoader } from "./loaders.js";
 
-// about page data
-const aboutPageData = siteData.aboutData;
 
 const router = createBrowserRouter([
   {
@@ -25,7 +23,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "about",
-        element: <About data={aboutPageData}/>,
+        element: <About />,
+        loader: aboutLoader,
         errorElement: <ErrorPage />,
       },
       {
