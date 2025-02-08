@@ -1,11 +1,14 @@
 import { Container } from "react-bootstrap";
 import ResumeHeader from "../components/resume/ResumeHeader";
 import ResumeBody from "../components/resume/ResumeBody";
+import { useLoaderData } from "react-router-dom";
 
-function Resume(props) {
-  const summary = props.summary;
-  const headerCard = props.headerCard;
-  const resumeBody = props.resumeBody;
+function Resume() {
+  const resume = useLoaderData();
+
+  const summary = resume.summary;
+  const headerCard = resume.headerCard;
+  const resumeBody = resume.resumeBody;
 
   return (
     <Container>

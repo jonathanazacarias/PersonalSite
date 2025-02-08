@@ -4,6 +4,7 @@ import axios from "axios";
 
 const siteAPIBaseURL = "http://localhost:3000";
 
+const resume = siteData.resumeData;
 const projects = siteData.projectData.projects;
 
 // // ex for getting from db
@@ -19,6 +20,18 @@ const projects = siteData.projectData.projects;
 //         return redirect("/projects");
 //     }
 // }
+
+export async function resumeLoader() {
+  try {
+    const data = await resume;
+
+    return data;
+
+  } catch (error) {
+    return redirect("/projects");
+  }
+}
+
 export async function projectsLoader() {
   try {
     const data = await projects;

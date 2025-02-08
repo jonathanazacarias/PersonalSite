@@ -12,13 +12,7 @@ import ErrorPage from "./error-page.jsx";
 
 // data is not being pulled from a backend for now, so loading all site content from data file
 import * as siteData from "./siteData.json";
-import { projectLoader, projectsLoader } from "./loaders.js";
-
-// resume content data
-const resumeData = siteData.resumeData;
-const summary = resumeData.summary;
-const headerCard = resumeData.headerCard;
-const resumeBody = resumeData.resumeBody;
+import { projectLoader, projectsLoader, resumeLoader } from "./loaders.js";
 
 // about page data
 const aboutPageData = siteData.aboutData;
@@ -50,7 +44,8 @@ const router = createBrowserRouter([
       {
         path: "resume",
         // resume element expecting 'summary' and 'resumeBody' props
-        element: <Resume summary={summary} headerCard={headerCard} resumeBody={resumeBody} />,
+        element: <Resume />,
+        loader: resumeLoader,
         errorElement: <ErrorPage />,
       },
     ],
