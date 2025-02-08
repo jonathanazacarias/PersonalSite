@@ -1,0 +1,16 @@
+.card {
+    width: 20rem;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.cardText {
+    text-indent: 0;
+}
