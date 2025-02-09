@@ -205,23 +205,20 @@
     }
   },
   "projectData": {
-    "projectCardData": {
-
-    },
     "projects": [
       {
         "id": "0",
         "type": "0",
         "title": "Project 0",
         "description": "Test project data.",
-        "img": null
+        "thumbnailImg": null
       },
       {
         "id": "1",
         "type": "1",
         "title": "Project 1",
         "description": "Test project data.",
-        "img": null
+        "thumbnailImg": null
       }
     ]
   }

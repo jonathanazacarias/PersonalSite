@@ -10,9 +10,7 @@ import Resume from "../src/routes/Resume.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ErrorPage from "./error-page.jsx";
 
-// data is not being pulled from a backend for now, so loading all site content from data file
-import * as siteData from "./siteData.json";
-import { projectLoader, projectsLoader, resumeLoader, aboutLoader } from "./loaders.js";
+import { projectLoader, projectsLoader, resumeLoader, aboutLoader } from "./utils/loaders.js";
 
 
 const router = createBrowserRouter([

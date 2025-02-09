@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function ProjectGrid(props) {
   const projects = props.projectList;
-  console.log(projects)
+
   const csProjectList = projects.filter(project => project.type == 0);
   const otherProjectList = projects.filter(project => project.type == 1);
 
@@ -18,7 +18,7 @@ function ProjectGrid(props) {
             projectId={project.id}
             title={project.title}
             description={project.description}
-            img={project.img}
+            thumbnailImg={project.thumbnailImg}
           />
         ))}
       </Container>
@@ -30,7 +30,7 @@ function ProjectGrid(props) {
             projectId={project.id}
             title={project.title}
             description={project.description}
-            img={project.img}
+            thumbnailImg={project.thumbnailImg}
           />
         ))}
       </Container>

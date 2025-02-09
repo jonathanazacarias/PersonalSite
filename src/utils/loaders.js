@@ -1,4 +1,8 @@
-import * as siteData from "./siteData.json";
+// ATM data is not being pulled from backend, so load all from local data file.
+// Put axios in so that it will be easy to update all loaders to pull date from back end later
+
+import * as siteData from "../siteData.json";
+
 import { redirect } from "react-router-dom";
 import axios from "axios";
 
