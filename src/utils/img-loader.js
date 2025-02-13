@@ -1,5 +1,5 @@
-export default function imgURLLoader(imgName, imgsubdir="") {
-    let basepath = `../assets/images/${imgName}`;
+export default function imgURLLoader(imgName, imgsubdir) {
+    let basepath = `../assets/${imgName}`;
 
     if(imgsubdir) {
        basepath = `../assets/images/${imgsubdir}/${imgName}`;

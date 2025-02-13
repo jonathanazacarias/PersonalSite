@@ -211,14 +211,20 @@
         "type": "0",
         "title": "Project 0",
         "description": "Test project data.",
-        "thumbnailImg": null
+        "thumbnailImg": null,
+        "projectDate": "",
+        "lastUpdated": "",
+        "projectMarkdown": ""
       },
       {
         "id": "1",
         "type": "1",
         "title": "Project 1",
         "description": "Test project data.",
-        "thumbnailImg": null
+        "thumbnailImg": null,
+        "projectDate": "",
+        "lastUpdated": "",
+        "projectMarkdown": ""
       }
     ]
   }
