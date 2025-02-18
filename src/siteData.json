@@ -186,22 +186,68 @@
     "basics": {
       "intro": "Hi, I’m Jonathan! I live in Seattle, WA, and am currently a dog handler (love ‘em) while I explore putting some of my other talents to work. I like to think of myself as a jack of all trades, with a particular interest in anything “tech”. I am a problem solver, a“tinkerer”, and a people person; which is why I love to code, tear apart engines, and play the game of Risk. I have had a wide array of jobs over the years, but my degree is in Computer Science, and I would love to put my software development skills to work! Lately I have been putting that together with some of my IT knowledge to bring you this react site. It is being hosted on my very own home server, if you want to learn more about how to do that or get a game server running (for dummies, learned from doing it myself) go check out that project here!",
       "galleryTitle": "Favorite Photos",
-      "galleryPhotoList": ["src/assets/images/galleryPhotos/beach.JPG", "src/assets/images/galleryPhotos/blakeSailboat.JPG", "src/assets/images/galleryPhotos/dock.JPG"],
+      "galleryPhotoList": [
+        "src/assets/images/galleryPhotos/beach.JPG",
+        "src/assets/images/galleryPhotos/blakeSailboat.JPG",
+        "src/assets/images/galleryPhotos/dock.JPG"
+      ],
       "bookInfluenceTitle": "Books that have influenced me:",
-      "bookInfluenceList": ["Tribe: On Homecoming and Belonging (Sebastian Junger)", "Sapiens: A Brief History of Humankind (Yuval Harari)", "The Bible (god)", "Exploring Metaphysics (David Johnson)", "Why Evolution is True (Jerry Coyne)", "The Deficit Myth (Stephanie Kelton)", "Behave (Robert Sapolsky)", "Animal Farm (George Orwell)", "The Parable of the Sower (Octavia Butler)", "All About Love (Bell Hooks)"],
+      "bookInfluenceList": [
+        "Tribe: On Homecoming and Belonging (Sebastian Junger)",
+        "Sapiens: A Brief History of Humankind (Yuval Harari)",
+        "The Bible (god)",
+        "Exploring Metaphysics (David Johnson)",
+        "Why Evolution is True (Jerry Coyne)",
+        "The Deficit Myth (Stephanie Kelton)",
+        "Behave (Robert Sapolsky)",
+        "Animal Farm (George Orwell)",
+        "The Parable of the Sower (Octavia Butler)",
+        "All About Love (Bell Hooks)"
+      ],
       "bookLoveTitle": "Books/ Media I love:",
-      "bookLoveList": ["Dune (all books, Frank Herbert, Brian Herbert, Kevin Andersen)", "Dune Part 1 & Part 2", "Westworld (TV Show)", "Altered Carbon (TV Show)", "The Complete Sailing Manual (Steve Sleight)", "Plants of the Pacific Northwest Coast", "Seashore Life of the Northern Pacific Coast", "Philosophy of Sailing: Offshore in Search of the Universe (Christian Williams)"]
+      "bookLoveList": [
+        "Dune (all books, Frank Herbert, Brian Herbert, Kevin Andersen)",
+        "Dune Part 1 & Part 2",
+        "Westworld (TV Show)",
+        "Altered Carbon (TV Show)",
+        "The Complete Sailing Manual (Steve Sleight)",
+        "Plants of the Pacific Northwest Coast",
+        "Seashore Life of the Northern Pacific Coast",
+        "Philosophy of Sailing: Offshore in Search of the Universe (Christian Williams)"
+      ]
     },
     "deep": {
-      "personalStatement": "",
+      "personalStatement": "I am a lifelong learner, drawn to the pursuit of many crafts. A *renaissance approach* to life and work—one that embraces diversity and cultivates a holistic understanding of the world—does more than make life more fulfilling and interesting; it fosters resourcefulness and transforms obstacles into opportunities. Mastery in any domain is strengthened by knowledge across others. To embrace diversity is to acknowledge the limits of one’s own knowledge, to relinquish ego, and, often, to rise above the instinctive biases of the human psyche in favor of objective results. \n\nTo be results-oriented is not to be rigid or inflexible, but rather to be unwavering in purpose. Adapting methodology as necessary to achieve the goal. The “results” one pursues must be chosen with care, they should be a reflection of purpose. My chosen purpose—the ultimate metric by which I hold myself accountable—is the magnification of joy and the alleviation of suffering within my sphere of influence. \n\nThis is why I am drawn to technology. When wielded with integrity—_people before profit_—it is among the most powerful tools humanity possesses to uplift and to serve. \n\nI have an obsessive fascination with **foundational integrity.** There are times when pragmatism demands expediency, but whenever possible, I am compelled to dig deeper. A superficial fix will not restore a decaying foundation; a hasty solution will not withstand the test of time. The quick patch, the sloppy line of code, the stripped bolt, dismissed as trivial—will reemerge, often at the worst possible moment. I have learned this lesson through experience and will continue to learn it. \n\nTo create and adhere to a standard is not enough—I must *understand* it. The depth of that understanding determines my ability to adapt when systems fail, to pivot without compromising quality. This is why I seek to uncover the full context of any problem or craft I engage in. This knowledge provides a framework, a foundation from which to operate. It helps to temper and balance the spark of creativity and passion with the structure of discipline, allowing for both innovation and enduring solutions. \n\nMy obsession with integrity extends to an obsession with quality. The processes, products, tools, I create, consume, and use must be built with intention, scoped perfectly for their task—engineered for longevity, designed with simplicity and the human in mind, yet built on a foundation that is capable of more than you expect. They should be recyclable, reusable, and wherever possible imbued with redundancy, ensuring resilience. \n\nCommunication is the cornerstone of both personal and professional success. Precision in language is as vital as precision in action; words, too, must reflect purpose. \n\nHow do I respond when confronted with my own failure—when I am forced to acknowledge that I have fallen short? Do I retreat into defensiveness, or do I interrogate the critique, searching for the truth within it? The impulse to resist is often a reflection of an unspoken recognition, a quiet admission that the criticism aligns with my own unvoiced doubts. Step beyond the instinct to shield ego, and instead, let scrutiny become a tool for improvement. Failure is an inevitability, and it is natural to feel disappointment when it occurs. However, lingering in failure—allowing it to erode standards or diminish my sense of agency—is unacceptable. I must analyze failure only as long as is necessary to extract its lessons, then move forward. Self-efficacy must be preserved. I firmly hold the belief that, within reason, there is almost nothing I cannot create, repair, or learn. More often than not, I will choose to acquire the tools, gather the materials, and develop the skill rather than lose the chance to expand the domains of my knowledge and ability. \n\nI do not always meet the standards I set for myself—indeed, I fail to achieve them more often than I succeed. Yet, I believe in grace. The pursuit of the highest degree of excellence demands both ambition and forgiveness. If I choose to set the bar unreasonably high, I must also embrace the inevitability of falling short. \n\n**Excellence is not perfection. It is an unwillingness to settle.** It is the continual pursuit of refinement, the relentless drive to improve, and the steadfast commitment to the purpose behind my work.",
       "joyListTitle": "Things that give me the most joy and fulfilment in my life:",
-      "joyList": ["providing/ organizing an experience/ surprise for my partner, friends, and people close to me", "Learning about a new subject", "Building / creating something new, physical, musical, digital.", "Teaching someone about something I am passionate about"],
+      "joyList": [
+        "providing/ organizing an experience/ surprise for my partner, friends, and people close to me",
+        "Learning about a new subject",
+        "Building / creating something new, physical, musical, digital.",
+        "Teaching someone about something I am passionate about"
+      ],
       "goalListTitle": "Goals both general and specific, immediate and long term, personal, life, and professional (in no particular order):",
-      "goalList": ["Become Grandmaster (or high skill) at as many board games as possible", "Build a business providing a product or service while maintaining integrity to my personal mission, and goals", "Help others achieve success", "Own a piece of land to build on", "Continue to learn, Always", "Share my own skills and abilities, help others increase self efficacy"],
+      "goalList": [
+        "Become Grandmaster (or high skill) at as many board games as possible",
+        "Build a business providing a product or service while maintaining integrity to my personal mission, and goals",
+        "Help others achieve success",
+        "Own a piece of land to build on",
+        "Continue to learn, Always",
+        "Share my own skills and abilities, help others increase self efficacy"
+      ],
       "qualitiesListTitle": "Qualities/ skills I admire the most about myself:",
-      "qualitiesList": ["Patience", "Self efficacy/ Competence", "Creative problem solving", "Communication skills (written, verbal, visual)"],
+      "qualitiesList": [
+        "Patience",
+        "Self efficacy/ Competence",
+        "Creative problem solving",
+        "Communication skills (written, verbal, visual)"
+      ],
       "improvmentListTitle": "Qualities/ skills I want to improve the most:",
-      "improvmentList": ["Timely and effective confrontation.", "Sticking to a routine", "Finishing tasks 100%, then revising and improving", "Communication skills (written, verbal, visual), other languages"]
+      "improvmentList": [
+        "Timely and effective confrontation.",
+        "Sticking to a routine",
+        "Finishing tasks 100%, then revising and improving",
+        "Communication skills (written, verbal, visual), other languages"
+      ]
     }
   },
   "projectData": {
@@ -209,19 +255,69 @@
       {
         "id": "0",
         "type": "0",
-        "title": "Project 0",
-        "description": "Test project data.",
+        "title": "HTML Portfolio Site",
+        "description": "A HTML and CSS only version of this website.",
+        "thumbnailImg": "HTMLPortfolioSite/htmlSiteImage.png",
+        "projectDate": "",
+        "lastUpdated": "",
+        "projectMarkdown": "![img](images/projects/HTMLPortfolioSite/htmlSiteImage.png)\n## About the Project\nThe website you are on now began it's life as a simple HTML and CSS site. I first created the site in HTML a couple of years ago and it served as the framework from which to build this site in React. A early, incomplete GitHub repo of this site can be found [here.](https://github.com/jonathanazacarias/Personal-portfolio-site) \n\n## Items of Note\n1. One of the most interesting things I learned to do through this site was with the door panels on the home page of the site (pictured above). I tried to come up with the most simple way to transition the image from a closed to a open door on ``` hover ```. To acomplish this I created two svg images of exactly the same size, one with a closed door image, and one with a open door image. These images were both put in as direct decendents of an ``` <a> ``` tag, one with a class of \"door\" and the other as \"hover-door\" (it turns out this second class is not even necessary). Then in the CSS, the \"door\" class recived a ``` height ```, and  ``` position: absolute ```. The positioning of the first item is important as it allows for the first item to be positioned on top of the second, as oposed to the default block positioning where they would be positioned next to eachouther within the parent tag. Since both images are exactly the same size, the second image is fully obscured by the first. Next, the ``` opacity ``` in the ``` .door:hover ``` class is set to 0. So when a user hovers over the image, the opacity of the first image in the ``` <a> ``` tag is set to 0 reveling the second image that is hidden beneth it. Since it does not use any javascript, and it does not use the ``` content ``` attribute in CSS, this method allows for a very quick and smooth transition between the two images, while maintaining a seperation of concerns. I later found almost this exact process being described [here](https://sirv.com/help/articles/hover-change-image/), but with a different order of items being obscured or shown.\n\n\n## Future of the Project\nThis HTML site is now depricated as I have built it bigger and better with React. It is however a lightweight backup to the react site should I ever need to fallback to a simpler version of the site. I may therefore continue to update this HTML version of the project. "
+      },
+      {
+        "id": "1",
+        "type": "0",
+        "title": "Blog Site and RESTful Concepts",
+        "description": "A project to practice using express.js, EJS, and RESTful architecture.",
+        "thumbnailImg": "blogSite/blogSite.png",
+        "projectDate": "",
+        "lastUpdated": "",
+        "projectMarkdown": "![img](images/projects/blogSite/blogSite.png)\n## About the Project\nThis is a very simple project that was used to practice using Express.js and EJS templating. There is an express server that can be run by changing into the project directory then running ``` node index.js ```. It uses bootstrap for minimal styling. A GitHub repo for the project can be found [here.](https://github.com/jonathanazacarias/Blog-Site-Project)\n\n\n## Items of Note\n1. Dynamic Rendering: The server uses EJS templates to render pages like the homepage (index.ejs), the post creation page (new-post.ejs), and individual post pages (post.ejs).\n2. Post Management: New posts are submitted via a POST request to /submit, where the title, content, and an optional image URL are captured. The post is assigned a unique ID and stored in the postCards array.\n3. Viewing Posts: The postId from the user input is used to retrieve the correct post from the array, which is then displayed on a separate page.\n\n\n## Future of the Project\nThe main purpose of this project was to practice using express and EJS. It does demonstrate key web development concepts such as handling form submissions, managing dynamic data, and generating unique identifiers that could be great to expose and demonstrate in an interactive way. I may take time to expand upon the basic feature-set to make it a fully RESTful API, then expose some of the code to create an interactive experience to demonstrate RESTful concepts."
+      },
+      {
+        "id": "2",
+        "type": "0",
+        "title": "To-Do Teams",
+        "description": "A huge expantion on the classic to-do list project. A full stack app with a React frontend and an express backend.",
+        "thumbnailImg": "toDoTeams/toDoTeams.png",
+        "projectDate": "",
+        "lastUpdated": "",
+        "projectMarkdown": "![img](images/projects/toDoTeams/toDoTeams.png)\n## About the Project\nThis project is a full-stack application featuring a React frontend and an Express backend, with PostgreSQL used for persistent data storage. The app is an expantion of the classic to-do list project, allowing users to create, view, update, and delete lists, as well as collaborate with friends on lists. It has very minimal styling as the main purpose of the app was to practice the creation of a full stack app, but the app was designed such that it will be straight forward to add styling.  \n\n## Frontend (React):\nThe GitHub repo for the react front end can be found [here.](https://github.com/jonathanazacarias/To-Do-Teams) \n 1. Routing & Navigation:\n\n    - The frontend uses React Router for managing navigation between different routes.\n     - The use of ProtectedRoute ensures that users must be authenticated to access pages like \"Lists\" and \"Friends\". If not logged in, they are redirected to the login page.\n 2. State Management & User Authentication:\n\n    - The app leverages React Context to manage authentication state (useAuth hook) and provides login functionality via a form.\n     - Users can log in with their credentials (email and password) or via  OAuth (Google/Facebook).\n     - Upon successful login, users are redirected to their \"Lists\" page. 3. UI/UX:\n    - The app allows users to manage to-do lists, view their friends, and interact with them via friend requests. This includes creating new lists, viewing list items, and editing or deleting them.\n     - The user experience is enhanced by features like handling form submissions with clear error messages.\n ## Backend (Express.js):\nThe GitHub repo for the express back end can be found [here.](https://github.com/jonathanazacarias/To-Do-Teams-Server)\n1. Authentication & Authorization:\n    - The backend uses Passport.js to handle user authentication. It supports local authentication (username and password) and OAuth authentication.\n     - Sessions are managed using express-session, with cookies that last for one day, and CORS is configured to allow communication between the React frontend and the Express backend. \n\n2. Database (PostgreSQL):\n    - PostgreSQL is used for persistent data storage, with tables for users, lists, list_items, and friends.\n     - The app’s backend handles creating, retrieving, updating, and deleting data. \n\n3. Interesting Features:\n    - Dynamic Data Management: Data for lists and friends is dynamically loaded based on the authenticated user. This ensures that each user only interacts with their own data.\n     - Password Security: Bcrypt is used to hash and salt user passwords before storing them in the database, ensuring secure handling of user credentials.\n     - Friendship System: The app includes a friend request system, with the ability to search for friends, send requests, and approve or reject them. This adds a social dimension to the app beyond just managing to-do lists. \n\n## Items of Note:\n1. Full-Stack Architecture:\n    - The combination of React for the frontend, Express for the backend, and PostgreSQL for the database makes this a robust full-stack application. The frontend and backend are tightly integrated with session management, allowing for seamless interaction between the client and server. \n\n2. Session-Based Authentication:\n    - The app uses sessions to manage user login state. This allows users to stay logged in between page reloads and ensures that sensitive operations (like managing lists and friends) are restricted to authenticated users only. \n\n3. Friend System & Social Interactions:\n    - The inclusion of a friendship system is a unique aspect. It allows users to search for friends, send friend requests, and approve or reject them. This adds a social networking feature to the typical to-do list app. \n\n4. Dynamic and Scalable Database Operations:\n    - The backend is designed to handle multiple users and their associated data (lists, items, and friends). The use of SQL queries ensures that users can easily fetch and manipulate their data, making it easy to scale the app in the future. \n\n## Main Concepts Practiced\n1. Frontend: React (with routing, state management, and authentication), form handling, lifecycle hooks.\n2. Backend: Express.js, Passport.js, session management, error handling, RESTful APIs.\n3. Database: PostgreSQL, SQL querying, parameterized queries, database relationships.\n4. Security: Password hashing (bcrypt), session-based authentication, CORS configuration, data validation.\n5. General Skills: Modular code, async/await, environment variables, external libraries like Axios.\n\n\n## Future of the Project\nThis is a great project to expand upon! In it's current state it has the basis of a great well rounded app. I may expand upon it further in the future to add styling and make it look good, and use the express backend in a react native app project to practice some app development."
+      },
+      {
+        "id": "3",
+        "type": "1",
+        "title": "Home Network",
+        "description": "How I transformed my network to safely host cool stuff at home.",
         "thumbnailImg": null,
         "projectDate": "",
         "lastUpdated": "",
         "projectMarkdown": ""
       },
       {
-        "id": "1",
+        "id": "4",
         "type": "1",
-        "title": "Project 1",
-        "description": "Test project data.",
+        "title": "Enterprise Server Equipment",
+        "description": "An overview of my experience setting up and working with a enterprise server computer.",
         "thumbnailImg": null,
+        "projectDate": "",
+        "lastUpdated": "",
+        "projectMarkdown": ""
+      },
+      {
+        "id": "5",
+        "type": "1",
+        "title": "Self Hosted Game Servers",
+        "description": "How to host your own game servers on ProxMox with LGSM.",
+        "thumbnailImg": "gameServer/gameServer.png",
+        "projectDate": "",
+        "lastUpdated": "",
+        "projectMarkdown": ""
+      },
+      {
+        "id": "6",
+        "type": "1",
+        "title": "Vintage Motorcycle Rebuild",
+        "description": "An overview of rebuilding my 1978 Suzuki GS400.",
+        "thumbnailImg": "vintageMotorcycleRebuild/vintageBuild.jpg",
         "projectDate": "",
         "lastUpdated": "",
         "projectMarkdown": ""

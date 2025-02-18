@@ -13,7 +13,7 @@ function ProjectCard(props) {
   if(thumbnailImg==="" || thumbnailImg===null || thumbnailImg === undefined) {
     thumbnail = "src/assets/images/defaultCardImg.svg";
   } else {
-    thumbnail = imgURLLoader(thumbnailImg, "projects/projectThumbnails");
+    thumbnail = imgURLLoader(thumbnailImg, "projects/");
   }
   
   return (

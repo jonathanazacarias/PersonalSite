@@ -1,11 +1,20 @@
+// // only used here if want to load local text file
+// import { useEffect, useState } from "react";
+
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import PictureGallery from "../components/about/PictureGallery";
 import "../css/about.css";
 import { v4 as uuidv4 } from "uuid";
-import HiddenTextAccordion from "../components/about/HiddenTextAccordion";
+import HiddenTextDropdown from "../components/about/HiddenTextDropdown";
+
+// // To load local text file
+// import pSText from "../assets/working files/markdown/personalStatement.txt";
+// import getText from "../utils/getLocalText.js";
+
+import MarkdownRenderer from "../utils/MarkdownRenderer";
 
 function About() {
   const about = useLoaderData();
@@ -21,6 +30,7 @@ function About() {
   const bookLoveTitle = basics.bookLoveTitle;
   const bookLoveList = basics.bookLoveList;
 
+  const personalStatement = deep.personalStatement;
   const joyListTitle = deep.joyListTitle;
   const joyList = deep.joyList;
   const goalListTitle = deep.goalListTitle;
@@ -30,24 +40,18 @@ function About() {
   const improvmentListTitle = deep.improvmentListTitle;
   const improvmentList = deep.improvmentList;
 
+  // // To load local text file
+  // const [content, setContent] = useState("");
+
+  // useEffect(() => {
+  //   getText(pSText).then(text => setContent(text));
+  // })
+
   return (
     <Container className="aboutPage">
       <h1>About Me</h1>
 
-      <p>
-        Hi, I’m Jonathan! I live in Seattle, WA, and am currently a dog handler
-        (love ‘em) while I explore putting some of my other talents to work. I
-        like to think of myself as a jack of all trades, with a particular
-        interest in anything “tech”. I am a problem solver, a“tinkerer”, and a
-        people person; which is why I love to code, tear apart engines, and play
-        the game of Risk. I have had a wide array of jobs over the years, but my
-        degree is in Computer Science, and I would love to put my software
-        development skills to work! Lately I have been putting that together
-        with some of my IT knowledge to bring you this react site. It is being
-        hosted on my very own home server, if you want to learn more about how
-        to do that or get a game server running (for dummies, learned from doing
-        it myself) go check out that project <Link to="">here</Link>!
-      </p>
+      <MarkdownRenderer markdown={introSummary} />
       <PictureGallery
         className="pictureGallery"
         galleryTitle={galleryTitle}
@@ -75,7 +79,10 @@ function About() {
       </Container>
       <Container className="deepDiveSection">
         <h2>Get to know me deep dive:</h2>
-        <HiddenTextAccordion />
+        <HiddenTextDropdown
+          title="Personal Philosphy on Life and Work:"
+          content={personalStatement}
+        />
         <Container>
           <Row>
             <Col>

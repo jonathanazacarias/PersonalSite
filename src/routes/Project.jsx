@@ -1,26 +1,24 @@
 import { useParams, useLoaderData, Link } from "react-router-dom";
-import imgURLLoader from "../utils/img-loader";
 import { Button, Container } from "react-bootstrap";
 import "../css/project.css";
-import Markdown from "react-markdown";
 
-
+import MarkdownRenderer from "../utils/MarkdownRenderer";
 
 function Project(props) {
   const { projectId } = useParams();
   const project = useLoaderData();
 
-  let markdown = "![img](beach.JPG)";
-
   return (
     <Container className="projectPage">
-      
-      <h1>{project.title}</h1>
-
       <Link to={"/Projects"}>
-        <Button>Back</Button>
+        <Button style={{'backgroundColor': 'grey', 'borderColor': 'grey', 'width': '100%'}}>Back to Projects</Button>
       </Link>
-      
+      <h1 className="centeredItem">{project.title}</h1>
+
+      <MarkdownRenderer className="projectMarkdown" markdown={project.projectMarkdown}/>
+      <Link to={"/Projects"}>
+        <Button style={{'backgroundColor': 'grey', 'borderColor': 'grey', 'width': '100%'}}>Back to Projects</Button>
+      </Link>
     </Container>
   );
 }
