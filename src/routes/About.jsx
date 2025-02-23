@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link, useLoaderData } from "react-router-dom";
 import PictureGallery from "../components/about/PictureGallery";
-import "../css/about.css";
+import "./routesCSS/about.css";
 import { v4 as uuidv4 } from "uuid";
 import HiddenTextAccordion from "../components/about/HiddenTextAccordion";
 

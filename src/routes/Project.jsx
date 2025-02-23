@@ -1,16 +1,9 @@
 import { useParams, useLoaderData, Link } from "react-router-dom";
-import imgURLLoader from "../utils/img-loader";
 import { Button, Container } from "react-bootstrap";
-import "../css/project.css";
-import Markdown from "react-markdown";
+import "./routesCSS/project.css";
 
-
-
-function Project(props) {
-  const { projectId } = useParams();
+function Project() {
   const project = useLoaderData();
-
-  let markdown = "![img](beach.JPG)";
 
   return (
     <Container className="projectPage">
