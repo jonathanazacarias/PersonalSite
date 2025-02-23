@@ -1,5 +1,6 @@
 import { useParams, useLoaderData, Link } from "react-router-dom";
 import { Button, Container } from "react-bootstrap";
+import MarkdownRenderer from "../utils/MarkdownRenderer";
 import "./routesCSS/project.css";
 
 function Project() {
