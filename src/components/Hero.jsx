@@ -16,9 +16,9 @@ export default function Hero() {
           openDoorSrc="src/components/doorButton/doorImages/pulled-door.svg"
         ></DoorButton>
         <DoorButton
-          link=""
-          closedDoorSrc="src/components/doorButton/doorImages/door.svg"
-          openDoorSrc="src/components/doorButton/doorImages/pushed-door.svg"
+          link="/projects/project/2"
+          closedDoorSrc="src/components/doorButton/doorImages/software-engineer-door.svg"
+          openDoorSrc="src/components/doorButton/doorImages/software-engineer-door-pushed.svg"
         ></DoorButton>
         <DoorButton
           link=""
