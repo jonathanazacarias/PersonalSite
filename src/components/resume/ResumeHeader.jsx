@@ -1,17 +1,23 @@
 import { Container } from "react-bootstrap";
 import "./resume.css";
-import HeaderCard from "../HeaderCard";
+import ProfileCard from "../ProfileCard";
 
 function ResumeHeader(props) {
   const summary = props.summary;
   const cardData = props.headerCard;
+
+  function handleBtnClick() {
+    // let link = cardData.downloadlink;
+    console.log("Button clicked");
+  }
+
   return (
     <div id="header">
-      <HeaderCard
+      <ProfileCard
         profilePicture={cardData.profilePic}
         title={cardData.title}
-        downloadLink={cardData.downloadlink}
-        downloadBtnText={cardData.downloadBtnText}
+        handleBtnClick={handleBtnClick}
+        buttonText={cardData.downloadBtnText}
       />
       <Container className="titleSection">
         <h1>Resume</h1>

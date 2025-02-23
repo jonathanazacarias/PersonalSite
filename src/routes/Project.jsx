@@ -1,11 +1,8 @@
 import { useParams, useLoaderData, Link } from "react-router-dom";
 import { Button, Container } from "react-bootstrap";
-import "../css/project.css";
+import "./routesCSS/project.css";
 
-import MarkdownRenderer from "../utils/MarkdownRenderer";
-
-function Project(props) {
-  const { projectId } = useParams();
+function Project() {
   const project = useLoaderData();
 
   return (

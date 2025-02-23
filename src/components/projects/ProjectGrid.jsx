@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function ProjectGrid(props) {
   const projects = props.projectList;
+  console.log(projects)
 
   const csProjectList = projects.filter(project => project.type == 0);
   const otherProjectList = projects.filter(project => project.type == 1);
