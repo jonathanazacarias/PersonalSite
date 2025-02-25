@@ -1,0 +1,104 @@
+{
+  "doors": [
+    {
+      "id": 1,
+      "catagory": 1,
+      "name": "Problem Solver",
+      "closedImage": "images/doorGroupImages/door1/closed-problem-solver-door.svg",
+      "openedImage": "images/doorGroupImages/door1/pushed-problem-solver-door.svg",
+      "matData": { "matPosition": 0, "matImage": "images/doorGroupImages/doormatLabels/problem-solver-mat-label.svg" },
+      "link": "/about",
+      "toolTipText": "Learn about me."
+    },
+    {
+      "id": 2,
+      "catagory": 1,
+      "name": "Leader",
+      "closedImage": "images/doorGroupImages/door1/closed-leader-door.svg",
+      "openedImage": "images/doorGroupImages/door1/pushed-leader-door.svg",
+      "matData": { "matPosition": 1, "matImage": "images/doorGroupImages/doormatLabels/leader-mat-label.svg" },
+      "link": "/resume",
+      "toolTipText": "See my experience."
+    },
+    {
+      "id": 3,
+      "catagory": 1,
+      "name": "Doer",
+      "closedImage": "images/doorGroupImages/door1/closed-doer-door.svg",
+      "openedImage": "images/doorGroupImages/door1/pushed-doer-door.svg",
+      "matData": { "matPosition": 2, "matImage": "images/doorGroupImages/doormatLabels/doer-mat-label.svg" },
+      "link": "/projects",
+      "toolTipText": "Check out my projects."
+    },
+    {
+      "id": 4,
+      "catagory": 2,
+      "name": "Software Engineer",
+      "closedImage": "images/doorGroupImages/door2/closed-software-engineer-door.svg",
+      "openedImage": "images/doorGroupImages/door2/pushed-software-engineer-door.svg",
+      "matData": { "matPosition": 0, "matImage": "images/doorGroupImages/doormatLabels/software-engineer-mat-label.svg" },
+      "link": "/projects/project/2",
+      "toolTipText": "Check out a random CS project."
+    },
+    {
+      "id": 5,
+      "catagory": 2,
+      "name": "Manager",
+      "closedImage": "images/doorGroupImages/door2/closed-manager-door.svg",
+      "openedImage": "images/doorGroupImages/door2/pushed-manager-door.svg",
+      "matData": { "matPosition": 2, "matImage": "images/doorGroupImages/doormatLabels/manager-mat-label.svg" },
+      "link": "/resume",
+      "toolTipText": "See my experience."
+    },
+    {
+      "id": 6,
+      "catagory": 2,
+      "name": "Website Builder",
+      "closedImage": "images/doorGroupImages/door2/closed-website-builder-door.svg",
+      "openedImage": "images/doorGroupImages/door2/pushed-website-builder-door.svg",
+      "matData": { "matPosition": 1, "matImage": "images/doorGroupImages/doormatLabels/website-builder-mat-label.svg" },
+      "link": "/resume",
+      "toolTipText": "See my testimonials."
+    },
+    {
+      "id": 7,
+      "catagory": 3,
+      "name": "Musician",
+      "closedImage": "images/doorGroupImages/door3/closed-musician-door.svg",
+      "openedImage": "images/doorGroupImages/door3/pushed-musician-door.svg",
+      "matData": { "matPosition": 2, "matImage": "images/doorGroupImages/doormatLabels/musician-mat-label.svg" },
+      "link": "/about",
+      "toolTipText": "Check out my music."
+    },
+    {
+      "id": 8,
+      "catagory": 3,
+      "name": "Mechanic",
+      "closedImage": "images/doorGroupImages/door3/closed-mechanic-door.svg",
+      "openedImage": "images/doorGroupImages/door3/pushed-mechanic-door.svg",
+      "matData": { "matPosition": 1, "matImage": "images/doorGroupImages/doormatLabels/mechanic-mat-label.svg" },
+      "link": "/projects/project/6",
+      "toolTipText": "Check out one of my builds."
+    },
+    {
+      "id": 9,
+      "catagory": 3,
+      "name": "Maker",
+      "closedImage": "images/doorGroupImages/door3/closed-maker-door.svg",
+      "openedImage": "images/doorGroupImages/door3/pushed-maker-door.svg",
+      "matData": { "matPosition": 3, "matImage": "images/doorGroupImages/doormatLabels/maker-mat-label.svg" },
+      "link": "/projects",
+      "toolTipText": "Check out one of my projects."
+    },
+    {
+      "id": 10,
+      "catagory": 3,
+      "name": "Grandmaster",
+      "closedImage": "images/doorGroupImages/door3/closed-grandmaster-door.svg",
+      "openedImage": "images/doorGroupImages/door3/pushed-grandmaster-door.svg",
+      "matData": { "matPosition": 0, "matImage": "images/doorGroupImages/doormatLabels/grandmaster-mat-label.svg" },
+      "link": "/projects",
+      "toolTipText": "Check out Operation Grandmaster."
+    }
+  ]
+}

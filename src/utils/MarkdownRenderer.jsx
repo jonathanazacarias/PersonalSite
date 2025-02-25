@@ -7,9 +7,7 @@ function MarkdownRenderer(props) {
   const { markdown } = props;
 
   function handleSrc(src) {
-    console.log(src)
     let newSrc = imgURLLoader(src);
-    console.log(newSrc)
     return newSrc;
   }
 
@@ -17,7 +15,7 @@ function MarkdownRenderer(props) {
     <ReactMarkdown
       children={markdown}
       components={{
-        p: (props) => <p style={{ 'textIndent': '0' }} {...props} />,
+        p: (props) => <span style={{ 'textIndent': '0' }} {...props} />,
         h2: (props) => <h2 {...props}></h2>,
         img: (props) => <Container style={{'display': 'flex', 'justifyContent':'center'}}><Image src={handleSrc(props.src)} alt={props.alt} style={{'width':'60%'}}/></Container>,
       }}
