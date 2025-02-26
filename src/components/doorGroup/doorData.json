@@ -97,7 +97,7 @@
       "closedImage": "images/doorGroupImages/door3/closed-grandmaster-door.svg",
       "openedImage": "images/doorGroupImages/door3/pushed-grandmaster-door.svg",
       "matData": { "matPosition": 0, "matImage": "images/doorGroupImages/doormatLabels/grandmaster-mat-label.svg" },
-      "link": "/projects",
+      "link": "/projects/project/7",
       "toolTipText": "Check out Operation Grandmaster."
     }
   ]
