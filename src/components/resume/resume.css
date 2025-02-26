@@ -31,3 +31,7 @@
 .cardImg {
     width: 10rem;
 }
+
+p {
+    text-indent: 0;
+}

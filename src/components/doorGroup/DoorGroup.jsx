@@ -72,6 +72,7 @@ function DoorGroup() {
             link={personalDoor.link}
             closedDoorSrc={personalDoor.closedImage}
             openDoorSrc={personalDoor.openedImage}
+            helpText={personalDoor.toolTipText}
           />
         ) : (
           <DoorButton />
@@ -91,6 +92,7 @@ function DoorGroup() {
             link={professionDoor.link}
             closedDoorSrc={professionDoor.closedImage}
             openDoorSrc={professionDoor.openedImage}
+            helpText={professionDoor.toolTipText}
           />
         ) : (
           <DoorButton />
@@ -112,6 +114,7 @@ function DoorGroup() {
             link={hobbyDoor.link}
             closedDoorSrc={hobbyDoor.closedImage}
             openDoorSrc={hobbyDoor.openedImage}
+            helpText={hobbyDoor.toolTipText}
           />
         ) : (
           <DoorButton />

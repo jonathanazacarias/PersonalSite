@@ -5,7 +5,7 @@ import door from "./doorImages/door.svg";
 import pushedDoor from "./doorImages/pushed-door.svg";
 
 function DoorButton(props) {
-  const { link = "", closedDoorSrc = door, openDoorSrc = pushedDoor } = props;
+  const { link = "", closedDoorSrc = door, openDoorSrc = pushedDoor, helpText} = props;
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -16,9 +16,9 @@ function DoorButton(props) {
         onMouseLeave={() => setIsHovered(false)}
       >
         {isHovered ? (
-          <img className="door" src={openDoorSrc} />
+          <img className="door" src={openDoorSrc} title={helpText}/>
         ) : (
-          <img className="door" src={closedDoorSrc} />
+          <img className="door" src={closedDoorSrc} title={helpText}/>
         )}
       </div>
     </Link>
