@@ -1,7 +1,6 @@
 import "./projectCard.css";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import imgURLLoader from "../../utils/img-loader";
 
 function ProjectCard(props) {
   const {projectId, title = "Title", description = "A short description of the project.", thumbnailImg} = props;
@@ -11,9 +10,9 @@ function ProjectCard(props) {
   let thumbnail;
 
   if(thumbnailImg==="" || thumbnailImg===null || thumbnailImg === undefined) {
-    thumbnail = "src/assets/images/defaultCardImg.svg";
+    thumbnail = "/images/defaultCardImg.svg";
   } else {
-    thumbnail = imgURLLoader(thumbnailImg, "projects/");
+    thumbnail = thumbnailImg;
   }
   
   return (
