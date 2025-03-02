@@ -3,7 +3,7 @@
   height: auto;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 992px) {
     .door {
         width: 14rem;
         height: auto;

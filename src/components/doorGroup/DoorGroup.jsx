@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container } from "react-bootstrap";
 import DoorButton from "./doorButton/DoorButton";
 import doorData from "./doorData.json";
-import Doormat from "./doormat/DoorMat";
+import Doormat from "./doormat/Doormat";
 
 import "./doorGroup.css";
 

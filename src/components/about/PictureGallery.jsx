@@ -21,9 +21,10 @@ function PictureGallery(props) {
         className="carousel"
         activeIndex={index}
         onSelect={handleSelect}
+        // slide={false}
       >
         {galleryPhotoList.map((photo) => (
-          <Carousel.Item key={uuidv4()}>
+          <Carousel.Item bsPrefix="photoCarrier" key={uuidv4()}>
             <GalleryImage img={photo} />
           </Carousel.Item>
         ))}

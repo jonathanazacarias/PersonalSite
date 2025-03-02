@@ -1,11 +1,37 @@
 .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
-.galleryImage {
-    height: 35rem;
-}
 
 .carousel {
-    width: 50rem;
+    width: 60rem;
+    height: 45rem;
+}
+
+.photoCarrier {
+    display: none;
+}
+
+.photoCarrier.active {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+
+@media (max-width: 992px) {
+    .carousel {
+        width: 45rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        width: 22rem;
+        height: 16rem;
+    }
 }

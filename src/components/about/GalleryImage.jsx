@@ -1,11 +1,10 @@
-import "./pictureGallery.css";
-import Image from 'react-bootstrap/Image';
+import "./galleryImage.css";
 
 function GalleryImage(props) {
     const imgLink = props.img;
 
     return (
-        <Image className="galleryImage" src={imgLink}></Image>
+        <img className="galleryImage" src={imgLink}></img>
     );
 }
 

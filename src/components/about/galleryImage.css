@@ -1,0 +1,19 @@
+.galleryImage {
+    width: auto;
+    height: 45rem;
+    
+}
+
+@media (max-width: 992px) {
+    .galleryImage {
+        width: auto;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .galleryImage {
+        width: auto;
+        height: 16rem;
+    }
+}
