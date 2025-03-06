@@ -10,6 +10,8 @@ import Resume from "../src/routes/Resume.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ErrorPage from "./error-page.jsx";
 
+import { contactAction } from "./utils/actions.js";
+
 import { projectLoader, projectsLoader, resumeLoader, aboutLoader } from "./utils/loaders.js";
 
 
@@ -17,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    action: contactAction,
     errorElement: <ErrorPage />,
     children: [
       {
