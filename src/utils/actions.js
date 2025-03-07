@@ -1,7 +1,7 @@
 import { redirect } from "react-router-dom";
 import axios from "axios";
 
-const personalSiteAPIbaseURL = "http://localhost:3000";
+const personalSiteAPIbaseURL = "https://api.jonathanzacarias.com";
 
 // headers to go with each request
 const headers = {"Content-Type": "application/json"};

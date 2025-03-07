@@ -98,7 +98,7 @@ function ContactForm() {
         const captchaJSON = { captchaToken: captchaValue };
         try {
           const captchaResponse = await axios.post(
-            `http://localhost:3000/verify`,
+            `https://api.jonathanzacarias.com/verify`,
             JSON.stringify(captchaJSON),
             {
               headers: { "Content-Type": "application/json" },
