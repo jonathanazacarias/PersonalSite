@@ -16,6 +16,7 @@ export async function contactAction({request}) {
 }
 
 // method to check reCAPTCHA validity
+// not used right now
 async function verifyReCAPTCHA(captchaToken) {
     try {
         const result = await axios.get(`${personalSiteAPIbaseURL}/verify`, captchaToken, {
