@@ -17,7 +17,8 @@ function Resume() {
       {/* reumeBody is a bit redundant.. could just add the reumeTabs component
         here (resumeBody just adds a div around the tabs) but the 'resumeBody'
         makes logical sense around the tabs so will keep for now as you could
-        forseeably add contentseperate from the tabs to the resume body*/}
+        forseeably add content seperate from the tabs to the resume body*/}
+        
       <ResumeBody resumeBody={resumeBody} />
     </Container>
   );
